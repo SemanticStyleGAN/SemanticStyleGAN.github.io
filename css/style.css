@@ -8754,6 +8754,15 @@ h1, h2, h3, h4, h5,
 .blog-entry {
   margin-bottom: 3em;
 }
+.blog-entry .video-box-3 {
+  width: 33.33333%;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+.blog-entry .caption {
+  text-align: center;
+  color: black;
+}
 .blog-entry .img {
   display: block;
   height: 400px;
@@ -9113,6 +9122,9 @@ textarea.form-control {
     -moz-box-shadow: 0 0 0 0 rgba(240, 93, 35, 0);
     box-shadow: 0 0 0 0 rgba(240, 93, 35, 0);
   }
+}
+.heading-section {
+  padding-top: 2.5em;
 }
 .heading-section .subheading {
   font-size: 14px;

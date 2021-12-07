@@ -244,7 +244,15 @@ h1, h2, h3, h4, h5,
 //BLOG ENTRY
 .blog-entry{
 	margin-bottom: 3em;
-
+	.video-box-3 {
+		width: 33.33333%;
+		padding-left: 0.25em;
+		padding-right: 0.25em;
+	}
+	.caption{
+		text-align: center;
+		color: black;
+	}
 	.img{
 		display: block;
 		height: 400px;
@@ -628,6 +636,7 @@ textarea.form-control {
 }
 
 .heading-section{
+	padding-top: 2.5em;
 	.subheading{
 		font-size: 14px;
 		display: block;

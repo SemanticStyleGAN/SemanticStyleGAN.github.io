@@ -133,8 +133,78 @@
 							</div>
 						</div>
 
-						<div class="col-md-8 heading-section text-center ftco-animate">
-							<h3 class="mb-4">Local Style Mixing</h3>
+					<div class="row justify-content-center ">
+						<div class="col-md-12 heading-section text-center ftco-animate">
+							<h3 class="mb-1">Disentangling Foreground and Background</h3>
+							<p class="mb-4">Our model also disentangles the foreground and background during generation. The user is able to control what to generate for foreground and where to generate it. The location and size of the foreground can be controlled by manipulating Fourier features.</p>
+						</div>
+						<div class="col-md-6">
+							<div class="blog-entry ftco-animate row">
+								<div class="video-box-3">
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/output.mp4" type="video/mp4">
+									</video>
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/06_traverse.mp4" type="video/mp4">
+									</video>
+									<p class="caption">Generation</p>
+								</div>
+								<div class="video-box-3">
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/03_shift_y.mp4" type="video/mp4">
+									</video>
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/06_shift_y.mp4" type="video/mp4">
+									</video>
+									<p class="caption">Shift</p>
+								</div>
+								<div class="video-box-3">
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/03_zoom.mp4" type="video/mp4">
+									</video>
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/06_zoom.mp4" type="video/mp4">
+									</video>
+									<p class="caption">Zoom</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="blog-entry ftco-animate row">
+								<div class="video-box-3">
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/16_traverse.mp4" type="video/mp4">
+									</video>
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/14_traverse.mp4" type="video/mp4">
+									</video>
+									<p class="caption">Generation</p>
+								</div>
+								<div class="video-box-3">
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/16_shift_y.mp4" type="video/mp4">
+									</video>
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/14_shift_y.mp4" type="video/mp4">
+									</video>
+									<p class="caption">Shift</p>
+								</div>
+								<div class="video-box-3">
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/16_zoom.mp4" type="video/mp4">
+									</video>
+									<video autoplay loop muted playsinline width="100%">
+										<source src="videos/background_exp/14_zoom.mp4" type="video/mp4">
+									</video>
+									<p class="caption">Zoom</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+						<div class="col-md-11 heading-section text-center ftco-animate">
+							<h3 class="mb-1">Local Style Mixing</h3>
+							<p class="mb-3">Similar to StyleGAN, we can conduct style mixing between generated images. But instead of transferring styles at different granity, we can transfer the styles of different local areas.</p>
 						</div>
 						<div class="col-md-11 tco-animate">
 							<div class="blog-entry ftco-animate fadeInUp ftco-animated">
@@ -142,6 +212,24 @@
 							</div>
 							<div class="blog-entry ftco-animate fadeInUp ftco-animated">
 									<img src="images/mix_bitmoji.png" width="100%">
+							</div>
+						</div>
+
+						<div class="col-md-12 heading-section text-center ftco-animate">
+							<h3 class="mb-1">Sequential Editing with CLIP</h3>
+							<p class="mb-3">Text-guided synthesis by optimizing latent codes with CLIP. Here, starting from an average face, we
+							sequentially edit the face with the inputs: <br>"a person with brown skin" --> "a person with purple long hair" --> "a person with blue eyes"</p>
+						</div>
+						<div class="col-md-12 tco-animate">
+							<div class="blog-entry ftco-animate fadeInUp ftco-animated row">
+								<div class="col-md-6">
+									<img src="images/styleclip.jpg" width="100%">
+									<p class="caption">CLIP + StyleGAN2</p>
+								</div>
+								<div class="col-md-6">
+									<img src="images/styleclip_ours.jpg" width="100%">
+									<p class="caption">CLIP + Ours</p>
+								</div>
 							</div>
 						</div>
 
