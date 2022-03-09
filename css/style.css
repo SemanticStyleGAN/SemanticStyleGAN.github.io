@@ -8632,10 +8632,13 @@ h1, h2, h3, h4, h5,
 }
 .hero-wrap .authors .name {
   font-size: 20px;
-  padding-right: 12px;
+  padding-right: 24px;
 }
 .hero-wrap .authors .organization {
-  font-size: 20px;
+  font-size: 16px;
+}
+.hero-wrap .authors .publication {
+  font-size: 22px;
 }
 .hero-wrap .text {
   z-index: 1;
@@ -8667,6 +8670,9 @@ h1, h2, h3, h4, h5,
   font-weight: 400;
   color: #4d4d4d;
   border-bottom: 2px solid #919191;
+}
+.hero-wrap .btn {
+  margin-right: 16px;
 }
 
 .btn {
