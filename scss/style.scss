@@ -123,13 +123,18 @@ h1, h2, h3, h4, h5,
 	.authors{
 		.name{
 			font-size: 20px;
-			padding-right: 24px;
+			padding-left: 12px;
+			padding-right: 12px;
+			display: inline-block;
+			margin-bottom: 8px;
 		}
 		.organization{
 			font-size: 16px;
+			margin-bottom: 8px;
 		}
 		.publication{
 			font-size: 22px;
+			margin-bottom: 8px;
 		}
 	}
 	.text{
@@ -161,7 +166,10 @@ h1, h2, h3, h4, h5,
 		}
 	}
 	.btn {
-		margin-right: 16px;
+		margin-left: 3px;
+		margin-right: 3px;
+		margin-top: 4px;
+		margin-bottom: 4px;
 	}
 }
 
